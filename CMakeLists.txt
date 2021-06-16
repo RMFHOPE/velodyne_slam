@@ -61,8 +61,6 @@ catkin_package(
   LIBRARIES loam 
 )
 
-add_definitions( -march=native )
-
 add_subdirectory(src/lib)
 
 add_executable(multiScanRegistration src/multi_scan_registration_node.cpp)
